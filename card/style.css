@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+    font-size: 400;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom:8px;
+
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: url(onu-advance-banner.jpg) no-repeat center center / cover;
+}
+.nav-link{
+    font-weight: 700;
+    color: #fff;
+}
+.navbar-nav .nav-link.active, .navbar-nav.show>.nav-link{
+    color: rgb(17, 233, 132);
+}
+.nav-link:focus, .nav-link:hover{
+    color: rgb(17, 233, 132);
+}
+.banner-contact{
+    padding: 180px 0;
+}
+.banner-contact h3,h1{
+    font-weight: 700;
+}
+
+.banner-contact h3,h1,h4{
+    font-family: Roboto;
+   
+}
+
+.banner-contact h3{
+    font-size:35px;
+    color: #fff;
+}
+.banner-contact h1{
+    font-size: 100px;
+    margin-top: 8px;
+    color: #fefefe;
+    border: 2px solid #fff;
+    padding: 12px 10px;
+}
+.banner-contact h1 span{
+    color:darkkhaki;
+}
+
+.banner-contact h4{
+    font-size: 36;
+    color: #fff;
+}
+.carousel-indicators [data-bs-target] {
+  
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(28, 211, 180);
+}
+.section-padding{
+    padding: 60px 0;
+}
+.title{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-icon i{
+    font-size:70px;
+    transition: .5s;
+}
+.about-meta h2{
+text-transform: uppercase;
+font-size: 24px;
+font-weight: 700;
+transition: .5s;
+}
+.about-meta p{
+    text-align: justify;
+
+}
+.about-item:hover .about-icon i{
+    color: rgb(28, 211, 180);
+}
+/* service start */
+#server{
+    background: #bbbbbb;
+}
+.service-item{
+    position: relative;
+    overflow: hidden;
+
+}
+.service-item-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #050505c9;
+    left: 0;
+    bottom: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.service-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.service-link a{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #fff;
+    color: #fefefe;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.service-link a:hover{
+    border: 1px solid #12dda0e8;
+    background: #12dda0e8;
+
+}
+.service-item:hover .service-item-overlay{
+   bottom: 0;
+}
+.portfolio-item-nav{
+    padding: 20px 22px;
+    font-size: 32px;
+    text-align: center;
+    background: #eee;
+}
+/* price section  */
+.price-card {
+    background: #607D8B;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.price-card-herder {
+    border: 2px solid #fff;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px;
+}
+ul.feature-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.feature-list li {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+   
+    text-align: center;
+    max-width: 150px;
+    margin: 30px auto;
+}
+.price-card:hover{
+    background: #0e7c26;
+}
+.price-card:hover .price-card-herder{
+    background: #fff
+   color(#0e7c26 red green blue)
+}
+.price-card:hover .price-card-footer{
+   
+    color : #0e7c26:
+
+}
+/* counter area */
+#counterarea{
+    background: url(footer_banner.jpg) no-repeat center center / cover;
+    padding: 30px 0;
+}
+.single-counter {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 12px;
+    position: relative;
+    z-index: 1;
+}
+.single-counter::after{
+    content: "";
+    position: absolute;
+}
+.single-counter h1 {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.single-counter h5 {
+    font-size: 20px;
+    color: #fff;
+}
+.single-counter::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #3131317d;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+  
+  
+
